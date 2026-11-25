@@ -1,0 +1,17 @@
+{"time": "22:16:29", "device": "IoT_001", "event": "NORMAL", "risk": 0.2}
+{"time": "22:16:29", "device": "IoT_002", "event": "SUSPICIOUS", "threat": "DDOS", "risk": 100.0}
+{"time": "22:16:29", "device": "IoT_002", "event": "RATE_LIMIT_50_APPLIED; device stays in MAIN VLAN"}
+{"time": "22:16:29", "device": "IoT_002", "event": "MIRRORED_EVIDENCE_SENT to MaliciousCheck VLAN (logical)"}
+{"time": "22:16:29", "device": "IoT_002", "event": "ISOLATED: moved to ISOLATION VLAN"}
+{"time": "22:16:29", "device": "IoT_003", "event": "SUSPICIOUS", "threat": "PORTSCAN", "risk": 100.0}
+{"time": "22:16:29", "device": "IoT_003", "event": "RATE_LIMIT_50_APPLIED; device stays in MAIN VLAN"}
+{"time": "22:16:29", "device": "IoT_003", "event": "MIRRORED_EVIDENCE_SENT to MaliciousCheck VLAN (logical)"}
+{"time": "22:16:30", "device": "IoT_003", "event": "ISOLATED: moved to ISOLATION VLAN"}
+{"time": "22:16:30", "device": "IoT_004", "event": "SUSPICIOUS", "threat": "DDOS", "risk": 100.0}
+{"time": "22:16:30", "device": "IoT_004", "event": "RATE_LIMIT_50_APPLIED; device stays in MAIN VLAN"}
+{"time": "22:16:30", "device": "IoT_004", "event": "MIRRORED_EVIDENCE_SENT to MaliciousCheck VLAN (logical)"}
+{"time": "22:16:35", "device": "IoT_004", "event": "RESTRICTED via ACL (reason=TIMEOUT); fail-safe"}
+{"time": "22:16:35", "device": "IoT_005", "event": "SUSPICIOUS", "threat": "DDOS", "risk": 100.0}
+{"time": "22:16:35", "device": "IoT_005", "event": "RATE_LIMIT_50_APPLIED; device stays in MAIN VLAN"}
+{"time": "22:16:35", "device": "IoT_005", "event": "MIRRORED_EVIDENCE_SENT to MaliciousCheck VLAN (logical)"}
+{"time": "22:16:35", "device": "IoT_005", "event": "RESTRICTED via ACL (reason=AUTH_FAILED); fail-safe"}

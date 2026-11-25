@@ -1,0 +1,87 @@
+{
+  "IoT_001": {
+    "vlan": "MAIN",
+    "status": "NORMAL",
+    "rate_limit_pct": 100,
+    "verification": "NONE",
+    "remaining_s": null,
+    "esp32_result": null,
+    "risk": 0.2,
+    "threat": "BENIGN",
+    "evidence": {
+      "flows": 30,
+      "unique_dest_ports": 12,
+      "dominant_port_fraction": 0.43,
+      "mean_packets_per_s": 90110.8,
+      "mean_fwd_packets": 3.7
+    }
+  },
+  "IoT_002": {
+    "vlan": "ISOLATION",
+    "status": "ISOLATED",
+    "rate_limit_pct": 0,
+    "verification": "CONFIRMED",
+    "remaining_s": 0,
+    "esp32_result": "CONFIRMED",
+    "risk": 100.0,
+    "threat": "DDOS",
+    "evidence": {
+      "flows": 30,
+      "unique_dest_ports": 1,
+      "dominant_port_fraction": 1.0,
+      "mean_packets_per_s": 48.5,
+      "mean_fwd_packets": 4.3
+    }
+  },
+  "IoT_003": {
+    "vlan": "ISOLATION",
+    "status": "ISOLATED",
+    "rate_limit_pct": 0,
+    "verification": "CONFIRMED",
+    "remaining_s": 0,
+    "esp32_result": "CONFIRMED",
+    "risk": 100.0,
+    "threat": "PORTSCAN",
+    "evidence": {
+      "flows": 30,
+      "unique_dest_ports": 30,
+      "dominant_port_fraction": 0.03,
+      "mean_packets_per_s": 51554.2,
+      "mean_fwd_packets": 1.0
+    }
+  },
+  "IoT_004": {
+    "vlan": "MAIN",
+    "status": "RESTRICTED",
+    "rate_limit_pct": 0,
+    "verification": "TIMEOUT",
+    "remaining_s": 0,
+    "esp32_result": "TIMEOUT",
+    "risk": 100.0,
+    "threat": "DDOS",
+    "evidence": {
+      "flows": 30,
+      "unique_dest_ports": 1,
+      "dominant_port_fraction": 1.0,
+      "mean_packets_per_s": 48.5,
+      "mean_fwd_packets": 4.3
+    }
+  },
+  "IoT_005": {
+    "vlan": "MAIN",
+    "status": "RESTRICTED",
+    "rate_limit_pct": 0,
+    "verification": "AUTH_FAILED",
+    "remaining_s": 0,
+    "esp32_result": "AUTH_FAILED",
+    "risk": 100.0,
+    "threat": "DDOS",
+    "evidence": {
+      "flows": 30,
+      "unique_dest_ports": 1,
+      "dominant_port_fraction": 1.0,
+      "mean_packets_per_s": 48.5,
+      "mean_fwd_packets": 4.3
+    }
+  }
+}

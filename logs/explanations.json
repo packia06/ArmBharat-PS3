@@ -1,0 +1,22 @@
+{
+  "IoT_001": {
+    "explanation": "IoT_001 shows normal network activity (risk score: 0.2/100).",
+    "action": "No action needed. Keep the device in the MAIN VLAN."
+  },
+  "IoT_002": {
+    "explanation": "IoT_002 triggered a possible DDoS alert (risk 100.0/100) with dominant port share 1.0 and average packet rate 48.5 pkt/s. Secondary verification result: CONFIRMED. Current state: ISOLATED on ISOLATION VLAN.",
+    "action": "Keep the device isolated in the ISOLATION VLAN and inspect it before restoring access."
+  },
+  "IoT_003": {
+    "explanation": "IoT_003 triggered a possible port scan alert (risk 100.0/100) across 30 unique destination ports. Secondary verification result: CONFIRMED. Current state: ISOLATED on ISOLATION VLAN.",
+    "action": "Keep the device isolated in the ISOLATION VLAN and inspect it before restoring access."
+  },
+  "IoT_004": {
+    "explanation": "IoT_004 triggered a possible DDoS alert (risk 100.0/100) with dominant port share 1.0 and average packet rate 48.5 pkt/s. Secondary verification result: TIMEOUT. Current state: RESTRICTED on MAIN VLAN.",
+    "action": "Keep traffic restricted via firewall/ACL rules until verification or review completes."
+  },
+  "IoT_005": {
+    "explanation": "IoT_005 triggered a possible DDoS alert (risk 100.0/100) with dominant port share 1.0 and average packet rate 48.5 pkt/s. Secondary verification result: AUTH_FAILED. Current state: RESTRICTED on MAIN VLAN.",
+    "action": "Keep traffic restricted via firewall/ACL rules until verification or review completes."
+  }
+}
